@@ -1,0 +1,52 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+    border-radius: 5px;
+    transition: 0.7s;
+  }
+
+  .card:hover {
+    box-shadow: 0px 0px 10px 0px hsla(160, 100%, 37%, 1);
+    transition: 0.3s;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bio-card {
+  background-color: var(--color-background-mute);
+}
+
+.card {
+  background-color: var(--color-background-mute);
+}
+
+.image-gradient{
+  background: var(--color-background-mute);
+  background: linear-gradient(90deg, var(--color-background-mute) 0%, rgba(255,255,255,0) 53%);
+}

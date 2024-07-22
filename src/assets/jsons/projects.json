@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Realtime Volumetric Cloud Shader",
+      "description": "A procedural shader using ray-marching and FBMs to create volumetric clouds. Based on two Siggraph presentations from Guerrilla Games and DICE.",
+      "image": "cloud-screenshot",
+      "repo": "https://github.com/ContiGianfranco/realtime-volumetric-cloud-shader/",
+      "demo": "https://contigianfranco.github.io/realtime-volumetric-cloud-shader/"
+    },
+    {
+      "id": 2,
+      "name": "3D Scene Using WebGL API",
+      "description": "A 3D scene of a castle using only the standard WebGL API. To make it I implemented a Scene graph structure, phong lighting, and texture mapping.",
+      "image": "castle-screenshot",
+      "repo": "https://github.com/ContiGianfranco/webgl-castle-scene/",
+      "demo": "https://contigianfranco.github.io/webgl-castle-scene/"
+    }
+  ]
+}
