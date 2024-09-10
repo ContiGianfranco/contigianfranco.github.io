@@ -13,13 +13,13 @@ const getPdfUrl = () => {
   <div class="bio-card">
     <h1>Conti Gianfranco</h1>
     <div class="bio-content">
-      <img src="../assets/profile-square.png" alt="Profile Picture" class="profile-picture">
+      <img src="../assets/icon.jpeg" alt="Profile Picture" class="profile-picture">
       <div class="bio-text">
         <p>
           Hi, I'm Gianfranco, a passionate software engineer based in Argentina.
         </p>
         <p>
-          I am a master's student in computer engineering and am currently finishing my final thesis at UBA. With a strong passion for graphic programming and continuous learning, I love exploring new technologies and pushing the boundaries of what is possible in the digital world.
+          I am a student in software engineering and am currently finishing my final thesis at UBA. With a strong passion for graphic programming and continuous learning, I love exploring new technologies and pushing the boundaries of what is possible in the digital world.
         </p>
       </div>
     </div>
